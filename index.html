@@ -17,6 +17,11 @@
             background-attachment: fixed;  /* 固定背景，滚动时背景不动 */
             color: white;  /* 设置文字颜色为白色 */
             text-align: center;  /* 设置文本居中 */
+            display: flex;  /* 使用flex布局 */
+            flex-direction: column;  /* 垂直排列内容 */
+            justify-content: center;  /* 垂直居中 */
+            align-items: center;  /* 水平居中 */
+            height: 100vh;  /* 设置页面高度为100vh，确保内容垂直居中 */
         }
 
         h1, h2, h3 {
@@ -45,21 +50,16 @@
         li {
             margin: 10px 0;
         }
-        
-        /* 使页面的内容垂直居中 */
-        header, section, footer {
-            display: block;
+
+        p {
+            font-size: 18px;
         }
 
-        /* 将页面内容居中对齐 */
         h1 {
             font-size: 36px;
             margin-top: 20px;
         }
 
-        p {
-            font-size: 18px;
-        }
     </style>
 </head>
 <body>
