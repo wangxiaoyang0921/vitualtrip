@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>未来虚拟旅行体验</title>
     <style>
         /* 设置背景图片 */
         body {
@@ -12,12 +16,7 @@
             background-position: center center;  /* 背景图片居中 */
             background-attachment: fixed;  /* 固定背景，滚动时背景不动 */
             color: white;  /* 设置文字颜色为白色 */
-            display: flex;  /* 使用flex布局 */
-            flex-direction: column;  /* 垂直排列内容 */
-            justify-content: center;  /* 垂直居中 */
-            align-items: center;  /* 水平居中 */
-            height: 100vh;  /* 设置页面高度为100vh，确保内容垂直居中 */
-            text-align: center;  /* 设置文本水平居中 */
+            text-align: center;  /* 设置文本居中 */
         }
 
         h1, h2, h3 {
@@ -31,6 +30,7 @@
 
         section {
             margin: 20px;
+            padding: 20px;
         }
 
         footer {
@@ -45,12 +45,23 @@
         li {
             margin: 10px 0;
         }
+        
+        /* 使页面的内容垂直居中 */
+        header, section, footer {
+            display: block;
+        }
 
+        /* 将页面内容居中对齐 */
+        h1 {
+            font-size: 36px;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 18px;
+        }
     </style>
 </head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>未来虚拟旅行体验</title>
 <body>
     <header>
         <h1>未来虚拟旅行体验</h1>
