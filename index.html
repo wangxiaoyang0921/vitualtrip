@@ -9,23 +9,28 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            padding: 0;
             margin: 0;
-            background-image: url('background.jpg');  /* 设置背景图片路径 */
+            padding: 0;
+            background-image: url('background.jpg'); /* 设置背景图片路径 */
             background-size: cover;  /* 让背景图片覆盖整个页面 */
-            background-position: center center;  /* 背景图片居中 */
-            background-attachment: fixed;  /* 固定背景，滚动时背景不动 */
+            background-position: center; /* 背景图片居中 */
+            background-attachment: fixed;  /* 背景固定 */
             color: white;  /* 设置文字颜色为白色 */
-            text-align: center;  /* 设置文本居中 */
-            display: flex;  /* 使用flex布局 */
-            flex-direction: column;  /* 垂直排列内容 */
-            justify-content: center;  /* 垂直居中 */
-            align-items: center;  /* 水平居中 */
-            height: 100vh;  /* 设置页面高度为100vh，确保内容垂直居中 */
+            display: flex; /* 使用flex布局 */
+            flex-direction: column; /* 垂直排列内容 */
+            justify-content: center; /* 垂直居中 */
+            align-items: center; /* 水平居中 */
+            min-height: 100vh; /* 设置页面最小高度为视口高度 */
+            text-align: center;  /* 所有文本居中 */
         }
 
         h1, h2, h3 {
-            color: white;  /* 设置标题颜色为白色 */
+            color: white; /* 设置标题为白色 */
+            margin: 20px 0;
+        }
+
+        p {
+            font-size: 18px;
         }
 
         mark {
@@ -38,11 +43,7 @@
             padding: 20px;
         }
 
-        footer {
-            margin-top: 40px;
-        }
-
-        ul {
+        ul, ol {
             list-style-type: none;
             padding-left: 0;
         }
@@ -50,16 +51,6 @@
         li {
             margin: 10px 0;
         }
-
-        p {
-            font-size: 18px;
-        }
-
-        h1 {
-            font-size: 36px;
-            margin-top: 20px;
-        }
-
     </style>
 </head>
 <body>
