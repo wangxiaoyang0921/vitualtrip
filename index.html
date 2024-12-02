@@ -5,17 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>未来虚拟旅行体验</title>
     <style>
+        /* 设置背景图片 */
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            padding: 20px;
+            padding: 0;
+            margin: 0;
+            background-image: url('background.jpg');  /* 设置背景图片路径 */
+            background-size: cover;  /* 让背景图片覆盖整个页面 */
+            background-position: center center;  /* 背景图片居中 */
+            background-attachment: fixed;  /* 固定背景，滚动时背景不动 */
+            color: white;  /* 设置文字颜色为白色 */
+            display: flex;  /* 使用flex布局 */
+            flex-direction: column;  /* 垂直排列内容 */
+            justify-content: center;  /* 垂直居中 */
+            align-items: center;  /* 水平居中 */
+            height: 100vh;  /* 设置页面高度为100vh，确保内容垂直居中 */
         }
+
         h1, h2, h3 {
-            color: #2c3e50;
+            color: white;  /* 设置标题颜色为白色 */
         }
+
         mark {
             background-color: #f39c12;
             color: white;
+        }
+
+        /* 其他样式 */
+        section {
+            text-align: center;
+            margin: 20px;
+        }
+
+        img {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            display: block;
+            border-radius: 8px;
+        }
+
+        footer {
+            margin-top: 40px;
         }
     </style>
 </head>
@@ -28,10 +60,11 @@
     <section>
         <h2>旅行服务亮点</h2>
         <ul>
-            <li><em>360°沉浸式体验：</em> 用虚拟现实还原真实场景。</li>
-            <li><em>个性化定制：</em> 自由选择景点、时间和行程。</li>
-            <li><em>超真实互动：</em> 与虚拟导游对话，了解历史文化。</li>
+            <li><strong>360°沉浸式体验：</strong>用虚拟现实还原真实场景。</li>
+            <li><em>个性化定制：</em>自由选择景点、时间和行程。</li>
+            <li>超真实互动：与虚拟导游对话，了解历史文化。</li>
         </ul>
+        <img src="virtual_reality.jpg" alt="360°沉浸式体验">
     </section>
 
     <section>
@@ -41,6 +74,7 @@
             <li>海底世界：与鲨鱼共游，感受深海之美。</li>
             <li>太空冒险：登陆火星、探索宇宙奥秘。</li>
         </ol>
+        <img src="future_city.jpg" alt="未来之城">
     </section>
 
     <section>
@@ -51,16 +85,7 @@
             <dt>AR技术</dt>
             <dd>增强现实技术，将虚拟元素叠加在现实世界中。</dd>
         </dl>
-    </section>
-
-    <section>
-        <h2>如何参与？</h2>
-        <p>预约虚拟旅行服务十分简单：</p>
-        <ol>
-            <li>访问我们的官网。</li>
-            <li>选择感兴趣的旅行目的地。</li>
-            <li>支付费用并下载虚拟旅行设备软件。</li>
-        </ol>
+        <img src="vr_ar_technology.jpg" alt="VR与AR技术">
     </section>
 
     <footer>
